@@ -44,6 +44,9 @@ export default {
       // 多页应用跳转路由 location.href
       location.href = `${process.env.BASE_URL}` + url;
     }
+  },
+  mounted() {
+    console.log(this.$arrayFunction)
   }
 };
 </script>

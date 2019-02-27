@@ -48,7 +48,6 @@ exports.htmlPlugin = configs => {
     }
     if (configs) {
       conf = merge(conf, configs)
-      console.log(conf)
     }
     // 如果为生产环境, 对 html文件压缩去空白
     if (process.env.NODE_ENV === 'production') {
