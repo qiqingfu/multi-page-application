@@ -9,7 +9,7 @@
   npm run serve 
 ``` 
 
-## 配置多页应用的两种方式 
+## 配置多页应用的两种方式 
 
 #### 1. configureWebpack 
 
